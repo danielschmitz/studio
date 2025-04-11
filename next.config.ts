@@ -1,11 +1,10 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  typescript: {
+  basePath: '/studio',
   output: 'export',
-    ignoreBuildErrors: true,
-  },
+  /* config options here */
+  typescript: {ignoreBuildErrors: true},
   eslint: {
     ignoreDuringBuilds: true,
   },
