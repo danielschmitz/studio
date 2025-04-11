@@ -28,6 +28,8 @@ const Icons = {
   spinner: Loader2,
   trash: Trash,
   user: User,
+  moon: Moon,
+  sun: Sun,
 };
 
 export {Icons};
